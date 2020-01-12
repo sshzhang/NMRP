@@ -84,7 +84,7 @@ class AttentionNetwork(object):
 
 
 
-class NMPRModel:
+class NMRPModel:
     def __init__(self, path_nums, timestamps, f_feature_size, m, random_seed, user_vocabulary_size, item_vocabulary_size, user_document_size,
                  user_review_length, item_document_size, item_review_length, s, dim, sess,
                  unit_type="gru", h=8,
